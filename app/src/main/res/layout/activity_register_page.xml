@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/material_dynamic_neutral60"
     tools:context=".SchedulePage">
 
     <TextView
@@ -12,8 +13,8 @@
         android:layout_height="49dp"
         android:layout_marginStart="136dp"
         android:layout_marginTop="16dp"
+        android:text="Add a Course"
         android:textSize="20sp"
-        android:text="Schedule Register"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,6 +23,8 @@
         android:layout_width="298dp"
         android:layout_height="16dp"
         android:layout_marginTop="38dp"
+        android:spinnerMode="dropdown"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
