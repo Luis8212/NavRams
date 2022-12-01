@@ -8,48 +8,46 @@
     tools:context=".dashboardActivity">
 
     <Button
-        android:id="@+id/button3"
-        android:layout_width="113dp"
-        android:layout_height="58dp"
-        android:layout_marginTop="749dp"
-        android:layout_marginEnd="298dp"
-        android:layout_marginBottom="16dp"
+        android:id="@+id/couseadd"
+        android:layout_width="159dp"
+        android:layout_height="88dp"
+        android:layout_marginBottom="488dp"
         android:background="@drawable/round_button_bg"
         android:backgroundTint="#add8e6"
-        android:text="Account"
+        android:text="ADD Course"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button4"
-        android:layout_width="113dp"
-        android:layout_height="58dp"
+        android:id="@+id/schudule"
+        android:layout_width="149dp"
+        android:layout_height="93dp"
         android:layout_marginStart="297dp"
         android:layout_marginEnd="1dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="360dp"
         android:background="@drawable/round_button_bg"
         android:backgroundTint="#add8e6"
         android:text="Schedule"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button5"
-        android:layout_width="155dp"
-        android:layout_height="104dp"
+        android:id="@+id/calendar"
+        android:layout_width="160dp"
+        android:layout_height="143dp"
         android:layout_marginStart="128dp"
-        android:layout_marginTop="703dp"
         android:layout_marginEnd="128dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="132dp"
         android:background="@drawable/round_button_bg"
         android:backgroundTint="#add8e6"
         android:text="Calendar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
